@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="idioma.js"></script>
+</head>
+<body>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-d4d34474-951f-49ed-bafe-099726428208" data-elfsight-app-lazy></div>
+    <header>
+        <button class="botonheader"><a href="index.html" class="decoenlace">
+        <h1 class = 'textoheader'><img src="https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/4X/6/2/f/62f64963b3b8eda573996bdfb646729e818ef77b_2_500x500.png" alt="" class="imagenheader">  DOCUMENTACION LUA PARA ESTUDIANTES
+        <img src="https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/4X/6/2/f/62f64963b3b8eda573996bdfb646729e818ef77b_2_500x500.png" alt="" class="imagenheader">
+        </h1>
+        </div>
+        </a>
+        </button>
+        
+    </header>
+    <div class="variables">
+        <a class= "decoenlace" href="#propiedades"><h2 class="apartado">PROPIEDADES</h2></a>
+        <a class= "decoenlace" href="#codigo"><h2 class="apartado">COMENTAR CÓDIGO EN LUA</h2></a>
+        <a class= "decoenlace" href="#localizar"><h2 class="apartado">LOCALIZAR UN PART</h2></a>
+        <a class= "decoenlace" href="#uso"><h2 class="apartado">USO DE PROPIEDADES</h2></a>
+        <a class= "decoenlace" href="#informacion"><h2 class="apartado">MÁS INFORMACIÓN</h2></a>
+    </div>
+    <div class="variables">
+        <h2 class="apartado" id="propiedades">LAS PROPIEDADES</h2>
+        <p class="parrafo">Para iniciarnos en las propiedades debemos tener en cuenta ya el motor de desarrollo, siendo el mas conocido para LUA Roblox Studio. <br><br>
+        Este motor de desarrollo nos permite colocar miles de objetos diferentes, que cada uno tiene propiedades diferentes. Es importante conocerlas pues LUA es un idioma de programación orientado a objetos. <br><br>
+
+        Las propiedades controlan el aspecto y el funcionamiento de los objetos. Cada objeto en Roblox Studio tiene su propio conjunto de propiedades. Por ejemplo, un objeto de pieza tiene propiedades de color, tamaño y forma. Las propiedades se pueden cambiar en la ventana Propiedades o a través del código.
+
+        <div style="
+        display: flex;
+        justify-content: center;
+        align-items: center;"><img style="width: 35%; height: 50%;border-radius: 8px;" src="https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/5/2/4/7/52477f3ebbc9f49e51b871a52bf61acb1391d5b5.png" alt=""></div>  
+    </p>    
+    
+        <h2 class="apartado" id="codigo">COMENTAR CODIGO EN LUA</h2>
+        <p class="parrafo">Los comentarios son líneas especiales que comienzan con -- que ayudan a los codificadores a recordar lo que hacen las partes de los scripts. <BR></BR> A diferencia de otro código, los comentarios no se ejecutan; Solo están ahí para que puedas dejarte notas a ti mismo y a otros programadores.
+
+        <pre style="text-align:center;
+        color: white; 
+        background-color: rgb(49, 49, 49);
+        border-radius: 8px;"><code> -- Esto es un comentario en LUA</code></pre>
+
+
+    </p>    
+
+    
+        <h2 class="apartado" id="localizar">LOCALIZAR UN PART</h2>
+        <p class="parrafo">Para realizar cambios en una pieza, debe ser capaz de describir la ubicación de la pieza. Esto lo hacemos desde el Explorador, en Roblox Studio.
+            <br><br>
+        Ejecuta Roblox Studio, abre un nuevo mundo y agrega una pieza. La pieza se ha agregado en Workspace. Agrega un Script y comencemos.
+        <br><br>
+        Ahora vamos a definir la pieza como una variable, que como ya sabrás se define con un nombre o un <span class="colorrojo">local</span> y el nombre. <br><br> Aqui tienes el resultado:
+        <br><pre class="codigo"><code><br><span class="colorrojo">local </span>Objeto = Workspace.part<br>-- o<br>Objeto = Workspace.part
+        </code></pre>
+
+    </p>    
+    
+   
+    
+        <h2 class="apartado" id="uso">USO DE LAS PROPIEDADES EN LUA</h2>
+        <p class="parrafo">Ahora que tienes localizado las propiedades del part en una variable, puedes usar estas para darle los valores que quieras de las propiedades.
+            <br><br>
+        Abre un script en Roblox Studio, define una part. <br>Ahora abre el panel de propiedades y toma el nombre de la propiedad que deseas cambiar, ahora por ejemplo usamos el color.
+        <br><br>
+        Escribe el nombre de tu variable y usa un punto (.) para hacer referencia a un hijo o propiedad de el objeto, en nuestro caso, Color<br><br>
+        Ahora, igualalo con el igual (=) y escoge el valor que desees.
+        <br><br> Aqui tienes el resultado:
+        <br><pre class="codigo"><code><br><span class="colorrojo">local </span>Objeto = Workspace.part<br> <br>Objeto.Color = Color3.new(1,1,1)
+        </code></pre>
+    
+    
+        <h2 class="apartado" id="informacion">
+            MÁS INFORMACIÓN
+        </h2>
+        <p class="parrafo" >
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TxOKPhS9mcM?si=Tmf9wD8QWc0iBEAW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <br>
+            Puedes obtener más información acerca de las variables en la documentación oficial del propio motor de desarrollo, <a href="https://create.roblox.com/docs/es-es"; style="color: rgb(163, 241, 255); font-weight: bold; text-decoration: none;">ROBLOX STUDIO <img style="height: 10px;" src="https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/4X/6/2/f/62f64963b3b8eda573996bdfb646729e818ef77b_2_500x500.png" alt=""></a><br>
+    
+        </p>
+    </div>
+    <footer style="background-color: rgb(17,17,17); color: rgb(161, 161, 161); text-align: center; border-radius: 8px;">
+        Informacion obtenida de la documentación oficial de Roblox Studio: <a style="text-decoration: none; font-weight: bolder; color:rgb(126, 185, 196); text-align: center; justify-content: center;" href="https://create.roblox.com/docs/tutorials/fundamentals/coding-1/object-properties#:~:text=Properties%20control%20how%20objects%20look,Properties%20window%20or%20through%20code.">https://create.roblox.com</a>
+    </footer>
+</body>
+</html>

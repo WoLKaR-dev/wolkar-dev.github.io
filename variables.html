@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lua</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="idioma.js"></script>
+</head>
+<body>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-d4d34474-951f-49ed-bafe-099726428208" data-elfsight-app-lazy></div>
+    <header>
+    <button class="botonheader"><a href="index.html" class="decoenlace">
+    <h1 class = 'textoheader'><img src="https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/4X/6/2/f/62f64963b3b8eda573996bdfb646729e818ef77b_2_500x500.png" alt="" class="imagenheader">  DOCUMENTACION LUA PARA ESTUDIANTES
+    <img src="https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/4X/6/2/f/62f64963b3b8eda573996bdfb646729e818ef77b_2_500x500.png" alt="" class="imagenheader">
+    </h1>
+    </div>
+    </a>
+    </button>
+    </header>
+    <div class="variables">
+        <a class="decoenlace" href="#variables"><h1 class="apartado">VARIABLES</h1></a>
+        <a class="decoenlace" href="#definicion"><h1 class="apartado">DEFINICIÓN DE VARIABLES</h1></a>
+        <a class="decoenlace" href="#nombres"><h1 class="apartado">NOMBRES RESERVADOS</h1></a>
+        <a class="decoenlace" href="#informacion"><h1 class="apartado">MÁS INFORMACIÓN</h1></a>
+    </div>
+    <div class="variables">
+        <h2 class="apartado" id="variables">
+            VARIABLES
+        </h2>
+        <p class="parrafo">
+            Una variable es un nombre que contiene valores. Los valores de las variables pueden ser numeros, strings, booleans, data types, y demás. Puedes usar cualquier nombre, pero no debe ser uno que comienze por un número, o que directamente sea el nombre de una funcion como <span class="colorrojo">if</span>.<br>Aquí tienes un ejemplo:
+        </p>
+        <pre style="text-align:center;
+        color: white; 
+        background-color: rgb(49, 49, 49);
+        border-radius: 8px;">
+        <code>
+LETRAS   -- valido <br>a1        -- valido<br>var_name  -- valido<br>_test     -- valido<br><span class="colorrojo"><b>if</b></span>     -- NO valido<br><span class="coloramarillo">25</span>th  -- NO valido</code>
+        </pre>
+        <p class="parrafo">Es importante destacar que los nombre son case-sensitive, por tanto, VARIABLE y Variable son variables y nombres diferentes.</p>
+        <h2 class="apartado" id="definicion">
+            DEFINIR Y NOMBRAR VARIABLES
+        </h2>
+        <p class="parrafo">Para definir las variables usamos una funcion o no dependiendo del contexto. Si queremos que la variable aplique para <b>todo el código</b> simplemente escribimos el nombre, pero si sólo queremos que aplique dentro de una funcion en específico usamos la palabra <span class="colorrojo">local</span>. <br>Aunque de todas formas, una función local va a tener el mismo efecto general en el código si se sitúa fuera de una funcion. <br> Aquí tienes otro ejemplo:</p>
+        <pre style="color: white; background-color: rgb(49,49,49); text-align: center; border-radius: 8px;  ">
+        <code>
+<b>--Variable definida a todo el código:</b><br>
+
+Nombre = <span style="color: rgb(103, 201, 103);">'Oscar'</span>  -- Variable general llamada Nombre
+<span class="colorrojo">local</span> Nombre = <span style="color: rgb(103, 201, 103);">'Oscar'</span> -- Variable local llamada Nombre
+        </code></pre>
+    
+    
+        <h2 class="apartado" id="nombres">
+            NOMBRES RESERVADOS
+        </h2>
+        <p class="parrafo">Los nombres reservados son palabras que no se pueden usar para nombrar una variable, pues estas palabras representan una funcion. La lista de palabras reservadas son: </p>
+        <ul style="color: white; text-align: left; margin-left: 48%;">
+        <li>and</li>
+        <li>for</li>
+        <li>or</li>
+        <li>break</li>
+        <li>function</li>
+        <li>repeat</li>
+        <li>do</li>
+        <li>if</li>
+        <li>return</li>
+        <li>else</li>
+        <li>in</li>
+        <li>then</li>
+        <li>elseif</li>
+        <li>local</li>
+        <li>true</li>
+        <li>end</li>
+        <li>nil</li>
+        <li>until</li>
+        <li>false</li>
+        <li>not</li>
+        <li>while</li>
+    </ul>
+    <h2 class="apartado" id="informacion">
+        MÁS INFORMACIÓN
+    </h2>
+    <p class="parrafo" >
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cVm0NhSEw3c?si=lFMxGm45ZRYzAw11" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <br>
+
+        Puedes obtener más información acerca de las variables en la documentación oficial de <a href="https://www.tutorialspoint.com/lua/lua_variables.htm"; style="color: rgb(163, 241, 255); font-weight: bold; text-decoration: none;">LUA</a>, o en el propio motor de desarrollo, <a href="https://create.roblox.com/docs/es-es"; style="color: rgb(163, 241, 255); font-weight: bold; text-decoration: none;">ROBLOX STUDIO <img style="height: 10px;" src="https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/4X/6/2/f/62f64963b3b8eda573996bdfb646729e818ef77b_2_500x500.png" alt=""></a><br>
+
+    </p>
+
+</div>
+<footer style="background-color: rgb(17,17,17); color: rgb(161, 161, 161); text-align: center; border-radius: 8px;">
+    Informacion obtenida de la documentación oficial de Roblox Studio: <a style="text-decoration: none; font-weight: bolder; color:rgb(126, 185, 196);" href="https://create.roblox.com/docs/es-es/luau/variables">https://create.roblox.com/docs/es-es/luau/variables</a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,84 @@
+.colorrojo{
+    color: rgb(245, 79, 79);
+    font-weight: bold;
+}
+
+.coloramarillo{
+    color: rgb(216, 158, 0);
+    
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 1px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+  }
+  
+h1{
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+
+body{
+    background-color: black;
+}
+
+.imagenheader{
+   
+    height: 15px;
+}
+
+.botonheader{
+    background-color: #333;
+    border: none;
+}
+
+.apartado{
+    background-color: rgb(116, 116, 116);
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.parrafo{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.variables{
+    background-color: #222;
+    border-radius: 8px;
+}
+
+.ejemplovariables{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    
+}
+
+.ejemplobanner{
+    background-color: #222;
+    height: 25px;
+    text-align: center;
+}
+
+.codigo{
+    color: white;
+     background-color: rgb(49,49,49); text-align: center;
+      border-radius: 8px;  
+}
+
+.decoenlace{
+    text-decoration: none;
+}
