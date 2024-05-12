@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1 class="title">Calculadora de raciones</h1>
+    <div class="variables"><a style="text-decoration: none; " href="index.html">
+        <h2 class="apartado">Regresar al inicio</h2></a></div>
+
+    <div id="calculadora">
+        <div id="opciones">
+          <label for="opcion1" class="opciones">Tipo de alimento:</label>
+          <select id="opcion1">
+            <option value="Leche, entera, desnatada, semidesnatada">Leche, entera, desnatada, semidesnatada</option>
+<option value="Yogur natural">Yogur natural</option>
+<option value="Yogur Sabores">Yogur Sabores</option>
+<option value="Yogur desnatado">Yogur desnatado</option>
+<option value="Queso de burgos">Queso de burgos</option>
+<option value="Requesón">Requesón</option>
+<option value="Quesitos, queso lonchas, otros.">Quesitos, queso lonchas, otros.</option>
+<option value="Pan integral o blanco">Pan integral o blanco</option>
+<option value="Biscotes">Biscotes</option>
+<option value="Pan de Molde">Pan de Molde</option>
+<option value="Galletas Maria">Galletas Maria</option>
+<option value="Conr-Flakes de Kellogs">Conr-Flakes de Kellogs</option>
+<option value="Harina de Trigo">Harina de Trigo</option>
+<option value="Rice-Crispis">Rice-Crispis</option>
+<option value="Legumbres Cocidas">Legumbres Cocidas</option>
+<option value="Legumbre Cruda">Legumbre Cruda</option>
+<option value="Pasta Cocida">Pasta Cocida</option>
+<option value="Pasta Cruda">Pasta Cruda</option>
+<option value="Patata Cocida">Patata Cocida</option>
+<option value="Patata Frita">Patata Frita</option>
+<option value="Patata Chips">Patata Chips</option>
+<option value="Patata Cruda">Patata Cruda</option>
+<option value="Arroz Cocida y lavada">Arroz Cocida y lavada</option>
+<option value="Arroz en paella">Arroz en paella</option>
+<option value="Arroz cruda">Arroz cruda</option>
+<option value="Las mas habituales, manzana, pera...">Las mas habituales, manzana, pera...</option>
+<option value="Plátano, no maduro">Plátano, no maduro</option>
+<option value="Uvas, higos, chirimoyas">Uvas, higos, chirimoyas</option>
+<option value="Sandía, melón">Sandía, melón</option>
+<option value="Fresa, fresón">Fresa, fresón</option>
+<option value="Ciruelas, cerezas, nísperos, fresquillas, kiwi, piña">Ciruelas, cerezas, nísperos, fresquillas, kiwi, piña</option>
+<option value="Aguacate">Aguacate</option>
+<option value="Judías verdes, espinacas, acelgas, repollo, coliflor, brócoli, berenjena, calabacin, esparrago, cardo, puerro">Judías verdes, espinacas, acelgas, repollo, coliflor, brócoli, berenjena, calabacin, esparrago, cardo, puerro</option>
+<option value="Lechuga, escarola, endivia, pepino crudo">Lechuga, escarola, endivia, pepino crudo</option>
+<option value="Tomate, crudo y frito">Tomate, crudo y frito</option>
+<option value="Coles de Bruselas Cocidas">Coles de Bruselas Cocidas</option>
+<option value="Setas, champiñón frito o asado">Setas, champiñón frito o asado</option>
+<option value="Alcachofa, frita o asada">Alcachofa, frita o asada</option>
+<option value="Pimiento, crudo o asado">Pimiento, crudo o asado</option>
+<option value="Zanahoria Cocida">Zanahoria Cocida</option>
+<option value="Zanahoria Cruda">Zanahoria Cruda</option>
+<option value="Cebolla, cruda, frita o asada">Cebolla, cruda, frita o asada</option>
+<option value="Remolacha, guisantes, habas-cocidos.">Remolacha, guisantes, habas-cocidos.</option>
+
+          </select>
+          <br>
+          <br>
+          <label for="opcion2" class="opciones">Cantidad, en ml, gr o unidades:</label>
+          <input type="number" id="opcion2" min="0">
+          <br>
+          <button id="agregarFila">Agregar Fila</button>
+          <button id="eliminarFila">Eliminar Fila</button>
+        </div>
+    </div>
+</div>
+        <div id="tabla">
+          <table id="tablaCalculadora">
+            <thead>
+              <tr>
+                <th>Alimento</th>
+                <th>Cantidad</th>
+                <th>Raciones</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+          <p id="sumaTotal" class="parrafo">Suma total de raciones: 0 raciones</p>
+        </div>
+      </div>
+    
+  <script src="acciones.js"></script>
+</body>
+</html>

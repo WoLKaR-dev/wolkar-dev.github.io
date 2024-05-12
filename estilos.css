@@ -1,0 +1,175 @@
+.apartado{
+    background-color: rgb(116, 116, 116);
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+}
+.variables{
+    background-color: #222;
+    border-radius: 8px;
+}
+    .parrafo{
+        text-align: center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: #fff;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+h1{
+    font-weight: bolder;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: rgb(47, 47, 47);
+}
+img{
+    height: 25%;
+    width: 25%;
+}
+.tabla-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ddd;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+th {
+    background-color: #ffffff;
+    text-align: center;
+    
+}
+.categoria1 {
+    background-color: #ff7777; /* Color para la Categoría 1 */
+}
+
+.categoria2 {
+    background-color: #86ff86; /* Color para la Categoría 2 */
+}
+
+.categoria3 {
+    background-color: #51a2ff; /* Color para la Categoría 3 */
+}
+
+.categoria4 {
+    background-color: #ffff77; /* Color para la Categoría 4 */
+}
+.decoenlace{
+    text-decoration: none;
+}
+.container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+}
+input{
+border-radius: 5px;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+select {
+    max-height: 50px;
+    overflow-y: auto;
+  }
+
+.divformulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.opcion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#calculadora {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #opcion1 {
+    width: 100%; /* Ancho máximo igual al 100% del contenedor */
+    max-width: 200px; /* Ancho máximo específico */
+  }
+  #opciones {
+    margin-bottom: 10px; /* Espacio entre opciones y tabla */
+  }
+  
+  #tabla {
+    margin-top: 20px; /* Espacio entre opciones y tabla */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+option{
+  text-align: left;
+  justify-content: left;
+  text-wrap: wrap;
+  text-align: left;
+  font-size: 75%;
+
+}  
+.opcion1{
+  text-align: left;
+  justify-content: left;
+  text-wrap: wrap;
+  text-align: left;
+  font-size: 85%;
+}
+.opciones{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ffffff;
+  font-weight: bolder;
+}
+#agregarFila{
+  border-radius: 5%;
+}
