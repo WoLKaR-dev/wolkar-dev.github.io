@@ -1,3 +1,11 @@
+function calcularRaciones() {
+  const gramos = parseFloat(document.getElementById('hidratos').value);
+  const cada100 = parseFloat(document.getElementById('cada100').value);
+
+  let raciones = (gramos / 100) * cada100 / 10;
+  alert(`Son un total de: ${raciones} raciones.`);
+}
+
 function corregirGlucosa() {
     // Obtener el valor de la glucosa del input
     const nivelGlucosa = parseFloat(document.getElementById('glucosa').value);
