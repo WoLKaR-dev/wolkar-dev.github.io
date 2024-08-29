@@ -2,8 +2,17 @@ function calcularRaciones() {
   const gramos = parseFloat(document.getElementById('hidratos').value);
   const cada100 = parseFloat(document.getElementById('cada100').value);
 
+  // Verifica si los valores son válidos
+  if (isNaN(gramos) || isNaN(cada100)) {
+      document.getElementById('resultado').innerText = "Por favor, introduce valores numéricos válidos.";
+      return;
+  }
+
+  // Calcula las raciones
   let raciones = (gramos / 100) * cada100 / 10;
-  alert(`Son un total de: ${raciones} raciones.`);
+  
+  // Muestra el resultado en el div
+  document.getElementById('resultado').innerText = "Raciones calculadas: " + raciones.toFixed(2);
 }
 
 function corregirGlucosa() {
