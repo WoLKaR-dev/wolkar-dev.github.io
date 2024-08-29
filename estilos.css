@@ -81,14 +81,55 @@ th {
 .decoenlace{
     text-decoration: none;
 }
+/* CSS para el contenedor */
 .container {
-    text-align: center;
-    margin-top: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffffff;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ffffff;
 }
+
+/* CSS para el botón */
+button {
+  background-color: #4CAF50; /* Color de fondo verde */
+  border: none; /* Sin borde */
+  color: white; /* Color del texto */
+  padding: 15px 32px; /* Espaciado interior del botón */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none; /* Sin subrayado */
+  display: inline-block; /* Mostrar como elemento en línea */
+  font-size: 16px; /* Tamaño de fuente */
+  margin: 4px 2px; /* Márgenes para espaciamiento */
+  cursor: pointer; /* Cambiar cursor al pasar por encima */
+  border-radius: 12px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+/* Efecto hover (cuando el ratón pasa por encima del botón) */
+button:hover {
+  background-color: #45a049; /* Color más oscuro al pasar el ratón */
+}
+
+/* Efecto de sombra */
+button:active {
+  background-color: #3e8e41; /* Color aún más oscuro cuando se hace clic */
+  box-shadow: 0 5px #666; /* Sombra */
+  transform: translateY(4px); /* Mover ligeramente hacia abajo */
+}
+
 input{
-border-radius: 5px;
+  background-color: #797979; /* Color de fondo verde */
+  border: none; /* Sin borde */
+  color: white; /* Color del texto */
+  padding: 7.5px 14px; /* Espaciado interior del botón */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none; /* Sin subrayado */
+  display: inline-block; /* Mostrar como elemento en línea */
+  font-size: 16px; /* Tamaño de fuente */
+  margin: 4px 2px; /* Márgenes para espaciamiento */
+  cursor: pointer; /* Cambiar cursor al pasar por encima */
+  border-radius: 12px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición suave */
 }
 button{
     border: none;
