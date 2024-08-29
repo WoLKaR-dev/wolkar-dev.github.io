@@ -214,3 +214,8 @@ option{
 #agregarFila{
   border-radius: 5%;
 }
+#resultado {
+  margin-top: 20px; /* Espacio encima del resultado */
+  color: #ffffff; /* Color del texto del resultado */
+  font-size: 18px; /* Tamaño de la fuente del resultado */
+}
