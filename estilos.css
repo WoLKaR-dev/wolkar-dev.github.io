@@ -1,35 +1,60 @@
+@font-face {
+  font-family: 'Unbounded-Medium';
+  src: url('Unbounded-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Unbounded-Regular';
+  src: url('Unbounded-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Unbounded-Light';
+  src: url('Unbounded-Light.ttf') format('truetype');
+}
+
 .apartado{
-    background-color: rgb(116, 116, 116);
+    background-color: rgb(61, 82, 213);
     border-radius: 8px;
     color: #fff;
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Unbounded-Light';
     align-items: center;
     justify-content: center;
     display: flex;
     font-weight: bold;
+    font-size: 'Unbounded-Light';
 }
 .variables{
-    background-color: #222;
+    background-color: #131313;
     border-radius: 8px;
+
 }
     .parrafo{
         text-align: center;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        color: #fff;
+        font-family:'Unbounded-Light';
+        color: #000000;
         margin-left: 5%;
         margin-right: 5%;
     }
 
+    .parrafoMain{
+      text-align: center;
+      font-family:'Unbounded-Light';
+      color: #ffffff;
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+
 h1{
     font-weight: bolder;
-    color: #fff;
+    color: #000000;
     font-size: 24px;
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Unbounded-Medium';
 }
 body{
-    background-color: rgb(47, 47, 47);
+    background-color: rgb(255, 255, 255);
 }
 img{
     height: 25%;
@@ -43,23 +68,23 @@ img{
 table {
     width: 100%;
     border-collapse: collapse;
-    background-color: #ddd;
+    background-color: #ffffff;
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Unbounded Light';
 
 }
 
 th, td {
-    border: 1px solid #000000;
+    border: 1px solid #4e4e4e;
     padding: 8px;
     text-align: left;
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Unbounded-Light';
     font-weight: bolder;
 }
 
 th {
-    background-color: #ffffff;
+    background-color: rgb(141, 141, 141);
     text-align: center;
     
 }
@@ -85,15 +110,15 @@ th {
 .container {
   text-align: center;
   margin-top: 50px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #ffffff;
+  font-family: 'Unbounded-Light';
+  color: #000000;
 }
 
 /* CSS para el botón */
 button {
   background-color: #4CAF50; /* Color de fondo verde */
   border: none; /* Sin borde */
-  color: white; /* Color del texto */
+  color: rgb(8, 9, 10); /* Color del texto */
   padding: 15px 32px; /* Espaciado interior del botón */
   text-align: center; /* Alineación del texto */
   text-decoration: none; /* Sin subrayado */
@@ -103,24 +128,25 @@ button {
   cursor: pointer; /* Cambiar cursor al pasar por encima */
   border-radius: 12px; /* Bordes redondeados */
   transition: background-color 0.3s ease; /* Transición suave */
+  font-family: 'Unbounded-Light';
 }
 
 /* Efecto hover (cuando el ratón pasa por encima del botón) */
 button:hover {
-  background-color: #45a049; /* Color más oscuro al pasar el ratón */
+  background-color: rgb(187, 52, 47); /* Color más oscuro al pasar el ratón */
 }
 
 /* Efecto de sombra */
 button:active {
-  background-color: #3e8e41; /* Color aún más oscuro cuando se hace clic */
-  box-shadow: 0 5px #666; /* Sombra */
+  background-color: rgb(187, 52, 47); /* Color aún más oscuro cuando se hace clic */
   transform: translateY(4px); /* Mover ligeramente hacia abajo */
+  font-family: 'Unbounded-Regular';
 }
 
 input{
-  background-color: #797979; /* Color de fondo verde */
+  background-color: rgb(61, 82, 213); /* Color de fondo verde */
   border: none; /* Sin borde */
-  color: white; /* Color del texto */
+  color: rgb(255, 255, 255); /* Color del texto */
   padding: 7.5px 14px; /* Espaciado interior del botón */
   text-align: center; /* Alineación del texto */
   text-decoration: none; /* Sin subrayado */
@@ -130,12 +156,14 @@ input{
   cursor: pointer; /* Cambiar cursor al pasar por encima */
   border-radius: 12px; /* Bordes redondeados */
   transition: background-color 0.3s ease; /* Transición suave */
+  font-family: 'Unbounded-Regular';
 }
 button{
     border: none;
     border-radius: 5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Unbounded-Medium';
     font-weight: bolder;
+    background-color:rgb(241, 136, 5);
 }
 
 select {
@@ -181,7 +209,7 @@ select {
   }
   
   th, td {
-    border: 1px solid black;
+    border: 1px solid rgb(73, 73, 73);
     padding: 8px;
   }
   
@@ -219,3 +247,137 @@ option{
   color: #ffffff; /* Color del texto del resultado */
   font-size: 18px; /* Tamaño de la fuente del resultado */
 }
+
+/* Estilos para el menú */
+
+
+@media screen and (max-width: 600px) {
+  li {
+      float: none;
+  }
+
+  .menu-icon {
+      display: block;
+  }
+}
+
+
+.menu-icon {
+  display: block;
+  cursor: pointer;
+}
+
+.menu-icon div {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  transition: max-height 0.3s ease-in-out;
+  max-height: 0;
+  font-family: 'Unbounded-Regular';
+}
+
+li {
+  display: block;
+  width: 100%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.show {
+  max-height: 500px;
+}
+
+.banner-container {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.banner-container a {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  animation: scroll 20s linear infinite;
+  margin: 0 10px; /* Espacio entre cada imagen */
+}
+
+.banner-container img {
+  width: 300px;
+  height: 150px;
+  border-radius: 3%;
+  object-fit: cover;
+}
+
+.banner-container span {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  background-color: rgba(0, 0, 0);
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'Unbounded-Regular';
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.scrolling-wrapper {
+  display: flex;
+  animation: scroll 40s linear infinite;
+}
+
+.section {
+  background-color: rgb(61, 61, 61); /* Color de fondo acorde a tus estilos */
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 20px; /* Espaciado interno */
+  margin: 20px 0; /* Espaciado externo */
+  color: #fff; /* Texto en blanco para contrastar */
+  text-align: left; /* Alineación del texto a la izquierda */
+  font-family: 'Unbounded-Light'; /* Fuente de acuerdo a tu diseño */
+}
+
+.section h2 {
+  font-family: 'Unbounded-Light'; /* Fuente más gruesa para los títulos */
+  font-size: 20px; /* Tamaño del título */
+  color: #ffffff; /* Color de los títulos */
+  margin-bottom: 10px; /* Espacio entre el título y el contenido */
+}
+
+.section ul, .section ol {
+  margin-left: 20px; /* Identación para listas */
+  color: #ffffff; /* Color de texto */
+}
+
+.section li {
+  margin-bottom: 8px; /* Espacio entre los ítems de la lista */
+}
+
+.section p {
+  margin-bottom: 10px; /* Espacio entre los párrafos */
+  font-family: 'Unbounded-Light'; /* Fuente para los textos */
+}
+

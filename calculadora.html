@@ -7,9 +7,33 @@
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <h1 class="title">Calculadora de raciones</h1>
-    <div class="variables"><a style="text-decoration: none; " href="index.html">
-        <h2 class="apartado">Regresar al inicio</h2></a></div>
+  <h1>Asistente de Gestión de Diabetes Tipo 1</h1>
+
+  <div class="menu-icon" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+  </div>
+
+  <ul id="menu">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="calculadoraHidratos.html">Calculadora de hidratos</a></li>
+      <li><a href="calculadora.html">Calculadora de raciones</a></li>
+      <li><a href="datos.html">Datos de hidratos</a></li>
+      <li><a href="desviacion.html">Desviación del sensor</a></li>
+      <li><a href="recetas.html">Recetas Saludables</a></li>
+  </ul>
+
+  <script>
+      function toggleMenu() {
+          var menu = document.getElementById("menu");
+          if (menu.className === "") {
+              menu.className = "show";
+          } else {
+              menu.className = "";
+          }
+      }
+  </script>
 <p class="parrafo">Esta calculadora permitirá calcular tus raciones de comida de manera eficiente. Coloca el tipo de alimento, la cantidad en ml, gr o unidades y pulsa añadir fila para colocarlo en tu menú. La opción 'eliminar filas' elminará la opción más reciente. Los yogures, que funcionan con unidades deben colocarse con PUNTOS y las galletas en gramos. Por ejemplo 0.6 de yogur. Los alimentos libres no aparecen.</p>
     <div id="calculadora">
         <div id="opciones">
