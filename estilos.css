@@ -244,7 +244,7 @@ option{
 }
 #resultado {
   margin-top: 20px; /* Espacio encima del resultado */
-  color: #ffffff; /* Color del texto del resultado */
+  color: #000000; /* Color del texto del resultado */
   font-size: 18px; /* Tamaño de la fuente del resultado */
 }
 
